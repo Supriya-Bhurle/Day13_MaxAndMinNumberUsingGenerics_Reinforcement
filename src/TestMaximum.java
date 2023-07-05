@@ -1,16 +1,16 @@
 public class TestMaximum {
     public static void main(String[] args) {
         System.out.println("Welcome to the generics Problem");
-        Integer number1 = 2;
-        Integer number2 = 3;
-        Integer number3 = 5;
-        Integer maximumNum = testMax(number1,number2,number3);
+        Float number1 = 21.5f;
+        Float number2 = 7.6f;
+        Float number3 = 12.4f;
+        Float maximumNum = testMax(number1,number2,number3);
         System.out.println("Maximum number is : "+maximumNum);
     }
 
-    public static Integer testMax(Integer number1, Integer number2, Integer number3) {
+    public static float testMax(Float number1, Float number2, Float number3) {
 
-        Integer maximumNumber = number1;
+        Float maximumNumber = number1;
         if(number2.compareTo(maximumNumber) > 0 )
         {
             maximumNumber = number2;
