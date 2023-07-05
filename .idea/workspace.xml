@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c23e8d78-ac69-4608-8479-60d1fa23eab6" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/TestMaximum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TestMaximum.java" afterDir="false" />
-    </list>
+    <list default="true" id="c23e8d78-ac69-4608-8479-60d1fa23eab6" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
