@@ -1,24 +1,24 @@
 public class TestMaximum {
     public static void main(String[] args) {
         System.out.println("Welcome to the generics Problem");
-        Float number1 = 21.5f;
-        Float number2 = 7.6f;
-        Float number3 = 12.4f;
-        Float maximumNum = testMax(number1,number2,number3);
-        System.out.println("Maximum number is : "+maximumNum);
+        String name1 = "Mango";
+        String name2 = "orange";
+        String name3 = "Banana";
+        String maximum = testMax(name1,name2,name3);
+        System.out.println("Maximum length of string is : "+maximum);
     }
 
-    public static float testMax(Float number1, Float number2, Float number3) {
+    public static String testMax(String name1, String name2, String name3) {
 
-        Float maximumNumber = number1;
-        if(number2.compareTo(maximumNumber) > 0 )
+        String maximum= name1;
+        if(name2.compareTo(maximum) > 0 )
         {
-            maximumNumber = number2;
+            maximum = name2;
         }
-        if(number3.compareTo(maximumNumber) > 0 )
+        if(name3.compareTo(maximum) > 0 )
         {
-            maximumNumber = number3;
+            maximum = name3;
         }
-        return maximumNumber;
+        return maximum;
     }
 }
